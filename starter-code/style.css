@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Home {
+  background-image: url("/TOURIST/starter-code/assets/home/background-home-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: block;
+  /* position: relative; */
+}
+
+.test-destination {
+  background-image: url("/TOURIST/starter-code/assets/destination/background-destination-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: none;
+}
+.test-crew{
+    background-image: url("/TOURIST/starter-code/assets/crew/background-crew-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display:none;
+}
+.test-technology{
+    background-image: url("/TOURIST/starter-code/assets/technology/background-technology-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    display:none;
+}
+/* ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 20px;
+  border: none;
+  /* border-color: white; */
+  /* width: 1000px; */
+  /* background-color:white; */
+  /* height: 100px; */
+  /* opacity: 0.1; */
+  /* font-weight: bolder; */
+/* } */ */
+.logo{
+  margin-left: 30px;
+  margin-right: 700px;
+  margin-top: 20px;
+}
+
+/* nav,
+ul,
+{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+ */
+/* .Destination{
+    background-image: url('/TOURIST/starter-code/assets/destination/background-destination-desktop.jpg');
+    background-position: center;FFFFFFFFFFFFFFFFFFFF
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: none;   
+} */
+.explore {
+  background-color: white;
+  margin-top: 80px;
+  height: 250px;
+  width: 250px;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+}
+.explore-circle {
+  position: absolute;
+  top: 110px;
+  left: 55px;
+  color: black;
+  font-size: 30px;
+}
+.grid-items {
+  margin-left: 100px;
+}
+.second-line {
+  font-size: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.last-line {
+  line-height: 30px;
+}
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(2, 900px);
+}
+/* .Destination{ */
+/* display:none; */
+/* }  */
+/* .moon{ */
+/* display: none; */
+/* } */
+/* .mars{ */
+/* display: none; */
+/* } */
+/* .Destination{ */
+/* position: absolute; */
+/* top: -2px; */
+/* left:-5px ; */
+/* width: 1230px; */
+/* } */
+/* .moon{ */
+/* position:absolute; */
+/* top: 200px; */
+/* left: 2px; */
+/* } */
+/* .mars{ */
+/* position:absolute; */
+/* top: 200px; */
+/* left: 2px; */
+/* } */
+.first-line,
+.moon,
+ .ansari-paragraph, .crew-first-line, .flex-one, .technology-first-line {
+  margin-left: 150px;
+}
+.first-line{
+    margin-top: 50px;
+}
+.combination-destination {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 420px;
+  cursor: pointer;
+}
+.moon-secondline {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.opacity-hr {
+  opacity: 0.5;
+}
+.flex1,
+.flex-distance1 {
+  margin-top: 20px;
+}
+.combination-mars {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.combination-europa {
+  margin-right: 50px;
+}
+.moon,
+.flex-moon1,
+.flex-moon2 {
+  display: flex;
+}
+.flex-distance1 {
+  margin-left: 60px;
+}
+.flex-distance2 {
+  margin-left: 45px;
+}
+.moon-paragraph {
+  margin-left: 150px;
+  line-height: 25px;
+}
+.moon-firstline {
+  font-size: 100px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.navbar {
+  position: fixed;
+}
+.flex-crew{
+    display:flex;
+}
+.crew-first-line{
+    /* margin-bottom: 10px; */
+    margin-top: 90px;
+}
+.ansari-name{
+    font-size: 47px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.ansari-secondline{
+    line-height: 25px;
+}
+.ansari-firstline{
+    font-weight: normal;
+    margin-top: 80px;
+}
+.ansari-image{
+    margin-left: 100px;   
+}
+.technoloy-number1{
+    border-radius: 50%;
+    border:1px white solid;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    /* margin-bottom: auto */
+    ;
+    /* background-color:white;
+    opacity: 0.2; */
+}
+.technoloy-number2{
+    border-radius: 50%;
+    border:1px white solid;
+    width: 250px;
+    height: 55px;
+    position: relative;
+    /* background-color:white;
+    opacity: 0.2; */
+}
+.technoloy-number3{
+    border-radius: 50%;
+    border:1px white solid;
+    width: 85px;
+    height: 55px;
+    position: relative;
+    /* background-color:white;
+    opacity: 0.2; */
+}
+
+.one{
+    position:absolute;
+    top:17px;
+    left:20px;
+}
+.two{
+    position:absolute;
+    top:20px;
+    left:22px;
+
+}
+.three{
+    position:absolute;
+    top:20px;
+    left:22px;
+
+}
+.flex-one{
+    display:flex;
+}
+.flex-technology{
+    display:flex;
+}
+.technology-first-line{
+    margin-bottom: 50px;
+}
+.technology-image1{
+    margin-left: 380px;
+}
+.terminology-technology{
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+ .terminology-technology1{
+margin-left:90px;
+margin-bottom: 40px;
+}
+.terminology-technology2{
+    margin-left: 100px;   
+}
+.launch{
+    font-weight: bold;
+    font-size: 30px;  
+}
+.the-terminology{
+    font-size: 15px;
+}

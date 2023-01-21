@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Home {
+  background-image: url("./starter-code/assets/home/background-home-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: block;
+  /* position: relative; */
+}
+.logo {
+  margin-left: 30px;
+  margin-right: 550px;
+  margin-top: 10px;
+}
+.navbar {
+  position: fixed;
+}
+nav,
+ul,
+li,
+a {
+  display: flex;
+  text-decoration: none;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+}
+.moon--moon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.crew--crew {
+  margin-right: 10px;
+}
+li {
+  background-color: rgba(193, 192, 192, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 150px;
+  height: 50px;
+  border: none;
+  opacity: 1;
+}
+li,
+a {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  position: relative;
+}
+
+li:after {
+  content: "";
+  width: 100%;
+  border-bottom: 2px solid transparent;
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+/*an hover add border-bottom */
+li:hover:after {
+  display: block;
+  border-bottom-color: white;
+}
+/*an active means when the click on link it'll appear ) add border-bottom*/
+
+li:active:after {
+  display: block;
+  border-bottom-color: white;
+}
+
+.explore {
+  background-color: white;
+  margin-top: 180px;
+  height: 250px;
+  width: 250px;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+}
+.explore-circle {
+  position: absolute;
+  top: 110px;
+  left: 55px;
+  color: black;
+  font-size: 30px;
+}
+.grid-items {
+  margin-left: 100px;
+}
+.second-line {
+  font-size: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.last-line {
+  line-height: 30px;
+}
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(2, 900px);
+}
+.first-line {
+  margin-top: 150px;
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destination-Mars</title>
+    <style>
+      body {
+        background-image: url("./starter-code/assets/destination/background-destination-desktop.jpg");
+        color: white;
+      }
+      .logo {
+        margin-left: 30px;
+        margin-right: 550px;
+        margin-top: 10px;
+      }
+      .first-line,
+      .titan-image {
+        margin-left: 150px;
+      }
+      .first-line {
+        margin-bottom: 10px;
+      }
+      .combination {
+        display: flex;
+        justify-content: center;
+        margin-left: 230px;
+        cursor: pointer;
+        margin-bottom: 20px;
+      }
+      .combination-moon,
+      .combination-titan {
+        color: white;
+        font-size: 18px;
+      }
+      .combination-mars {
+        color: white;
+        font-size: 18px;
+      }
+      .combination-europa {
+        color: white;
+        font-size: 18px;
+      }
+      .titan,
+      .flex-moon1,
+      .flex-moon2 {
+        display: flex;
+      }
+      .flex-distance1 {
+        margin-left: 60px;
+      }
+      .flex-distance2 {
+        margin-left: 45px;
+      }
+      .titan-paragraph {
+        margin-left: 150px;
+        line-height: 25px;
+      }
+      .titan-firstline {
+        font-size: 100px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+      }
+      .flex-one {
+        margin-left: 150px;
+      }
+      .opacity-hr {
+        opacity: 0.5;
+      }
+      nav,
+      ul,
+      li,
+      a {
+        display: flex;
+        text-decoration: none;
+        vertical-align: top;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .moon--moon {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .crew--crew {
+        margin-right: 10px;
+      }
+      li {
+        background-color: rgba(193, 192, 192, 0.2);
+        border-radius: 10px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        width: 150px;
+        height: 50px;
+        border: none;
+        opacity: 1;
+      }
+      li,
+      a {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      a {
+        position: relative;
+      }
+      a:after {
+        content: "";
+        width: 100%;
+        border-bottom: 2px solid transparent;
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+      }
+      /*an hover add border-bottom */
+      a:hover:after {
+        display: block;
+        border-bottom-color: white;
+      }
+      /*an active means when the click on link it'll appear ) add border-bottom*/
+
+      a:active:after {
+        display: block;
+        border-bottom-color: white;
+      }
+      li {
+        position: relative;
+      }
+
+      li:after {
+        content: "";
+        width: 100%;
+        border-bottom: 2px solid transparent;
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+      }
+      /*an hover add border-bottom */
+      li:hover:after {
+        display: block;
+        border-bottom-color: white;
+      }
+      /*an active means when the click on link it'll appear ) add border-bottom*/
+
+      li:active:after {
+        display: block;
+        border-bottom-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="Home" id="home">
+      <nav class="navbar">
+        <img
+          class="logo"
+          src="./starter-code/assets/shared/logo.svg"
+          width="30px"
+          height="30px"
+        />
+        <ul class="links">
+          <li><a href="index.html">01 HOME</a></li>
+          <li class="moon--moon">
+            <a href="destination-moon.html">02 DESTINATION</a>
+          </li>
+          <li class="crew--crew"><a href="engineer-crew.html">03 CREW </a></li>
+          <li><a href="technology-vehicle.html">04 TECHNOLOGY</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="test-destination">
+      <br />
+      <br />
+      <br />
+      <h1 class="first-line">
+        <span style="color: rgb(121, 121, 121)">01</span> PICK YOUR DESTINATION
+      </h1>
+
+      <div class="combination">
+        <a href="./destination-moon.html">
+          <p class="combination-moon">MOON</p></a
+        >
+        <a href="./destination-mars.html">
+          <p class="combination-mars">MARS</p></a
+        >
+        <a href="./destination-europa.html">
+          <p class="combination-europa">EUROPA</p></a
+        >
+        <a href="./destination-titan.html"
+          ><p class="combination-titan">TITAN</p></a
+        >
+      </div>
+
+      <div class="titan">
+        <img
+          class="titan-image"
+          src="./starter-code/assets/destination/image-titan.png"
+          height="350px"
+          width="350px"
+        />
+        <div class="titan-paragraph">
+          <h1 class="titan-firstline">TITAN</h1>
+          <p class="titan-secondline">
+            The only moon known to have a dense atmosphere other than
+            <br />Earth, Titan is a home away from home (just a few hundred
+            <br />
+            degrees colder!). As a bonus, you get striking views of the <br />
+            Rings of Saturn.
+          </p>
+          <hr class="opacity-hr" />
+          <div class="flex-moon1">
+            <p class="flex1">AVG. DISTANCE</p>
+            <p class="flex-distance1">1.6 bil. KM</p>
+          </div>
+          <div class="flex-moon2">
+            <p class="flex1">EST TRAVEL TIME</p>
+            <p class="flex-distance1">7 YEARS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

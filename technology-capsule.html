@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TECHNOLOGY-CAPSULE</title>
+    <style>
+      body {
+        background-image: url("./starter-code/assets/technology/background-technology-desktop.jpg");
+        color: white;
+      }
+      .logo {
+        margin-left: 30px;
+        margin-right: 550px;
+        margin-top: 10px;
+      }
+      .technology-first-line {
+        margin-left: 150px;
+      }
+      .technoloy-number1 {
+        border-radius: 50%;
+        border: 1px white solid;
+        width: 50px;
+        height: 50px;
+        position: relative;
+        margin-top: 10px;
+        background: none;
+      }
+      .technoloy-number2 {
+        border-radius: 50%;
+        border: 1px white solid;
+        width: 50px;
+        height: 50px;
+        position: relative;
+        margin-top: 15px;
+        background: none;
+      }
+      .technoloy-number3 {
+        border-radius: 50%;
+        border: 1px white solid;
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background: none;
+      }
+
+      .one {
+        position: absolute;
+        top: 245px;
+        left: 178px;
+        color: white;
+      }
+      .two {
+        position: absolute;
+        top: 360px;
+        left: 178px;
+      }
+      .three {
+        position: absolute;
+        top: 480px;
+        left: 180px;
+      }
+      .flex-one {
+        display: flex;
+        margin-left: 150px;
+      }
+      .flex-technology {
+        display: flex;
+      }
+      .technology-first-line {
+        margin-bottom: 50px;
+      }
+      .technology-image1 {
+        margin-left: 370px;
+      }
+      .terminology-technology {
+        margin-left: 90px;
+        margin-bottom: 5px;
+      }
+      .terminology-technology1 {
+        margin-left: 90px;
+        margin-bottom: 20px;
+      }
+      .terminology-technology2 {
+        margin-left: 90px;
+      }
+      .space {
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 12px;
+      }
+      .the-terminology {
+        font-size: 15px;
+        margin-top: 12px;
+      }
+      nav,
+      ul,
+      li,
+      a {
+        display: flex;
+        text-decoration: none;
+        vertical-align: top;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .moon--moon {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .crew--crew {
+        margin-right: 10px;
+      }
+      li {
+        background-color: rgba(193, 192, 192, 0.2);
+        border-radius: 10px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        width: 150px;
+        height: 50px;
+        border: none;
+        opacity: 1;
+      }
+      li,
+      a {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      a {
+        position: relative;
+      }
+
+      a:after {
+        content: "";
+        width: 100%;
+        border-bottom: 2px solid transparent;
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+      }
+      /*an hover add border-bottom */
+      a:hover:after {
+        display: block;
+        border-bottom-color: white;
+      }
+      /*an active means when the click on link it'll appear ) add border-bottom*/
+
+      a:active:after {
+        display: block;
+        border-bottom-color: white;
+      }
+      li {
+        position: relative;
+      }
+
+      li:after {
+        content: "";
+        width: 100%;
+        border-bottom: 2px solid transparent;
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+      }
+      /*an hover add border-bottom */
+      li:hover:after {
+        display: block;
+        border-bottom-color: white;
+      }
+      /*an active means when the click on link it'll appear ) add border-bottom*/
+
+      li:active:after {
+        display: block;
+        border-bottom-color: white;
+      }
+      .active {
+        background-color: white;
+        color: black;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <section class="Home" id="home">
+      <nav class="navbar">
+        <img
+          class="logo"
+          src="./starter-code/assets/shared/logo.svg"
+          width="30px"
+          height="30px"
+        />
+        <ul class="links">
+          <li><a href="index.html">01 HOME</a></li>
+          <li class="moon--moon">
+            <a href="destination-moon.html">02 DESTINATION</a>
+          </li>
+          <li class="crew--crew"><a href="engineer-crew.html">03 CREW </a></li>
+          <li><a href="technology-vehicle.html">04 TECHNOLOGY</a></li>
+        </ul>
+      </nav>
+    </section>
+    <br />
+    <br />
+    <h1 class="technology-first-line">
+      <span style="color: rgb(179, 178, 178)">03</span> SPACE LAUNCH 101
+    </h1>
+
+    <div class="flex-technology">
+      <div>
+        <div class="flex-one">
+          <div class="">
+            <button class="technoloy-number1 technology" onclick="NewTab()"></button>
+            <p class="one">1</p>
+          </div>
+          <div class="terminology-technology">
+            <p class="the-terminology">THE TERMINOLOGY...</p>
+            <p class="space">SPACE CAPSULE</p>
+          </div>
+        </div>
+
+        <div class="flex-one">
+          <div class="">
+            <button class="technoloy-number2 technology" onclick="NewTab1()"></button>
+            <p class="two">2</p>
+          </div>
+
+          <div class="terminology-technology1">
+            <p class="the-terminology">
+              A space capsule is an often-crewed spacecraft<br />
+              that uses a blunt-body reentry capsule to reenter<br />
+              the Earth's atmosphere without wings.Our <br />capsule is where
+              you'll spend your time during<br />
+              the flight.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex-one">
+          <div class="">
+            <button class="technoloy-number3 technology" onclick="NewTab2()"></button>
+            <p class="three">3</p>
+          </div>
+
+          <div class="terminology-technology2">
+            <p class="the-terminology">
+              It includes a space gym, cinema, and plenty of<br />
+              other activities to keep you entertained.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="technology-image1">
+        <img
+          class="image1"
+          src="./starter-code/assets/technology/image-space-capsule-landscape.jpg"
+          height="300px"
+          width="400px"
+        />
+      </div>
+    </div>
+
+    <script>
+      let buttons = document.querySelectorAll(".technology");
+      document.addEventListener("click", function (evt) {
+        if (evt.target.classList.contains("technology")) {
+          buttons.forEach(function (button) {
+            button.classList.remove("active");
+          });
+          evt.target.classList.add("active");
+        }
+      });
+
+      function NewTab() {
+        window.open("./technology-vehicle.html");
+      }
+      function NewTab1() {
+        window.open("./technology-capsule.html");
+      }
+      function NewTab2() {
+        window.open("./technology-spaceport.html");
+      }
+    </script>
+  </body>
+</html>
