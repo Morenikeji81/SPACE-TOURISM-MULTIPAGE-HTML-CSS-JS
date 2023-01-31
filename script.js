@@ -16,11 +16,7 @@ $(function() { // On DOM content ready...
 
 
 
-// window.addEventListener("load", function() {
-//   document.getElementById("button1").addEventListener("click", function() {
-//     window.open(this.getAttribute("data-href"), "_blank")
-//   })
-// })
+
 
 
 
